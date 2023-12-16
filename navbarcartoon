@@ -1,0 +1,214 @@
+<head>
+<head>
+<script src="https://kit.fontawesome.com/58f81d92db.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylewebsite.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap" rel="stylesheet">
+
+
+      <meta charset="UTF-8">
+      <meta name="description" content="NYC / NJ / Florida Area Specialty Movers.  We are a professional Moving and Storage company with almost a decade of experience.  BBB Accredited, Highly Reviewed.">
+      <meta name="keywords" content="moving, storage, packing, relocation services">
+      <meta name="author" content="Leonard">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/58f81d92db.js" crossorigin="anonymous"></script>
+  <title>Welcome to Bluestar Movers LLC</title>
+  <link rel="icon" type="image/jpg" href="IMG_2091.jpg"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XRC0LSB9XC">
+</script>
+<script>
+��window.dataLayer = window.dataLayer || [];
+��function gtag(){dataLayer.push(arguments);}
+��gtag('js', new Date());
+
+��gtag('config', 'G-XRC0LSB9XC');
+</script>
+</head>
+
+
+<nav class="navbar">
+<input type="checkbox" id="active">
+<label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+  <ul class="nav-list">
+    <li class="nav-item">
+      <a href="#" class="button">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="button">
+        <span>Tos</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="button">
+        <span>About</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="button">
+        <span>Other Stuff </span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<style>
+
+:root {
+  --accent: #97bee6;
+  --borderWidth: 3px;
+}
+
+*,
+*::after {
+  box-sizing: border-box;
+}
+
+.button,
+.nav-item {
+  background-color: inherit;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: currentColor;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.button span,
+.nav-item span {
+  background-color: var(--accent);
+  display: inherit;
+  padding: 1em 3em;
+  border: 2px solid currentColor;
+  border-radius: 2em;
+  position: relative;
+  z-index: 1;
+  transform: translate(-0.4rem, -0.4rem);
+  transition: 0.2s ease-in-out;
+}
+
+.button::after,
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid currentColor;
+  background-color: inherit;
+  pointer-events: none;
+  mix-blend-mode: darken;
+  filter: contrast(1200%) brightness(100%) saturate(0.25);
+  overflow: hidden;
+  background: linear-gradient(
+      182deg,
+      currentColor,
+      currentColor 25%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 400 75' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+.button:hover span,
+.nav-item:hover span {
+  transform: translate(0px, 0px);
+  transition: 0.2s ease-in-out;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--background);
+  padding: 20px;
+  border-bottom: var(--borderWidth) solid var(--accent);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 100px;
+  position: relative;
+}
+
+
+.menu-btn{
+position:fixed;
+right:20px;
+top:20px;
+z-index:2;
+text-align:center;
+line-height:50px;
+height:50px;
+width:50px;
+border-radius:50%;
+
+
+cursor:pointer;
+
+transition:all 0.3s ease;
+z-index:25;
+
+  background:#97bee6;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: currentColor;
+  text-decoration: none;
+  display: block;
+ 
+  text-align: center;
+  border: 2px solid currentColor;
+}
+
+#active:checked ~ menu-btn{
+
+
+background:#fff;
+color:#4158d8;
+}
+
+.menu-btn:hover{
+  transform: translate(0px, 0px);
+  transition: 0.2s ease-in-out;
+}
+
+
+
+
+</style>
