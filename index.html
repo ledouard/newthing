@@ -6,11 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ABCDEFG</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58f81d92db.js" crossorigin="anonymous"></script>
   </head>
   <body>
   
   
 <nav>
+<ul class="sidebar">
+<li><a href="/">LGOGO</a></li>
+<li><a href="/">Home</a></li>
+<li><a href="/">Services</a></li>
+<li><a href="/">Products</a></li>  
+<li><a href="/">About Us</a></li>  
+<li><a href="/">Active</a></li>  
+<li><a href="/">Login</a></li>
+
+</ul>  
 <ul>
 <li><a href="/">LGOGO</a></li>
 <li><a href="/">Home</a></li>
@@ -19,8 +30,8 @@
 <li><a href="/">About Us</a></li>  
 <li><a href="/">Active</a></li>  
 <li><a href="/">Login</a></li>  
-</ul>  
-  
+<li><i class="fa-solid fa-bars"></i></li>
+</ul>    
   
   
   
@@ -55,7 +66,7 @@ box-sizing:border-box;
 
 body{
 min-height:100vh;
-background-image:url(https://www.pexels.com/photo/red-budweiser-trailer-truck-2676842/);
+background-image:url(https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-3.jpg);
 background-size:cover;
 background-repeat:no-repeat;
 background-position:center;
@@ -97,15 +108,30 @@ background-color:#f0f0f0;
 
 }
 
-nav-li:first-child{
+nav li:first-child{
 margin-right:auto;
+}
 
+.sidebar{
+position:fixed;
+top:0;
+right:0;
+HEIGHT:100vh;
+width:250px;
+z-index:999;
+background-color:rgba(255,255,255,0.2);
+backdrop-filter:blur(10px);
+box-shadow:-10px 0 10px rgba(0,0,0,0.1);
+display:none;
+flex-direction:column;
+align-items:flex-start;
+justify-content:flex-start;
+line-height:50px;
+}
 
-
-
-
-
-
+.sidebar li{
+width:100%;
+}
 
 
 </style>
